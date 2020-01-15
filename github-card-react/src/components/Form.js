@@ -1,8 +1,9 @@
 import React from 'react';
+import './../form.css';
 
 const Form = props => {
 	return (
-		<div>
+		<div className='form'>
 			<input
 				type='text'
 				value={props.userName}
